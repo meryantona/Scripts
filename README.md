@@ -2,32 +2,32 @@ A collection of homemade Scripts.
 
 This collection of scripts serves various purposes, focusing on enhancing system functionalities, file modifications and web reconnaissance.
 
-/// Python Scripts
+#### /// Python Scripts
 
-➡️ news_google_spain_RSS.py
+###### ➡️ news_google_spain_RSS.py
 
 This script provides a simple yet effective way to fetch and display the latest news articles from the Google News RSS feed for Spain in the terminal. 
 Links can be open directly in browser. 
 
-➡️ web_scraping_all_links.py
+###### ➡️ web_scraping_all_links.py
 
 This Python script allows users to input a domain name and fetch all the links from the corresponding web page. 
 The extracted links are then displayed in the terminal and exported to a CSV file with the domain name as the filename. 
 The script utilizes BeautifulSoup for HTML parsing and requests for making HTTP requests.
 
-➡️ system_check.py
+###### ➡️ system_check.py
 
 This script collects and displays system usage information, including CPU, memory, disk, network activity, and active connections. 
 After retrieving the data, it prints the CPU usage, memory usage, and disk usage percentage, as well as information about network activity and active connections.
 
 
-/// Bash Scripts
+#### /// Bash Scripts
 
-➡️ cron_security_scan.sh
+###### ➡️ cron_security_scan.sh
 
 This Bash script provides a comprehensive security scan of cron jobs on Linux systems. It systematically checks system-level and user-specific crontab entries, examines files in /etc/cron.d and periodic cron directories, looks for unauthorized crontab files, and reviews recent cron-related system logs.
 
-➡️ mac_changer.sh
+###### ➡️ mac_changer.sh
 
 Bash script designed to change the MAC address of a specified network interface, restart the interface, and then check network connectivity.
 
@@ -37,7 +37,7 @@ Bash script designed to change the MAC address of a specified network interface,
 
 3 - It restarts the network interface and tests network connectivity by pinging Google's DNS server (8.8.8.8).
 
-➡️ web_recon.sh
+###### ➡️ web_recon.sh
 
 This Bash script is designed for conducting basic reconnaissance on a given website or IP address. 
 
