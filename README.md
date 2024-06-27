@@ -23,12 +23,18 @@ After retrieving the data, it prints the CPU usage, memory usage, and disk usage
 
 /// Bash Scripts
 
+➡️ cron_security_scan.sh
+
+This Bash script provides a comprehensive security scan of cron jobs on Linux systems. It systematically checks system-level and user-specific crontab entries, examines files in /etc/cron.d and periodic cron directories, looks for unauthorized crontab files, and reviews recent cron-related system logs.
+
 ➡️ mac_changer.sh
 
 Bash script designed to change the MAC address of a specified network interface, restart the interface, and then check network connectivity.
 
 1 - It checks if the macchanger utility is installed and if the script is being run with root privileges.
+
 2 - It prompts the user to select a network interface to change the MAC address for.
+
 3 - It restarts the network interface and tests network connectivity by pinging Google's DNS server (8.8.8.8).
 
 ➡️ web_recon.sh
