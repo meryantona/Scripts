@@ -27,6 +27,10 @@ After retrieving the data, it prints the CPU usage, memory usage, and disk usage
 
 This Bash script provides a comprehensive security scan of cron jobs on Linux systems. It systematically checks system-level and user-specific crontab entries, examines files in /etc/cron.d and periodic cron directories, looks for unauthorized crontab files, and reviews recent cron-related system logs.
 
+###### ➡️ processes_security_scan.sh
+
+This Bash script performs a comprehensive scan of system processes, providing a practical security sweep. It displays system-level processes, shows user-specific processes, presents a hierarchical process list, and provides detailed process information. The script uses color-coded output for better readability and includes interactive pauses to allow the user to review information at their own pace.
+
 ###### ➡️ mac_changer.sh
 
 Bash script designed to change the MAC address of a specified network interface, restart the interface, and then check network connectivity.
